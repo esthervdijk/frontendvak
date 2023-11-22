@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.dourfestival.eu/nl/ 
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
@@ -68,10 +68,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/homepagina.pdf" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/stagespagina.pdf" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menuin.png" width="375px" alt="breakdown van een dynamisch deel. Het menu zit in nu.">
+  <img src="readme-images/menuuit.png" width="375px" alt="breakdown van een dynamisch deel. Het menu is nu uit.">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -232,5 +234,58 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. bron 1
   2. bron 2
   3. ...
+
+</details>
+
+## Notities 
+
+<details open>
+
+les 3, donderdag 16 nov
+Grid - je geeft het aan per lijn 
+De stukken content kunnen niet met elkaar communiceren, ze weten niks over elkaar. 
+Altijd beginnen met mobile first ontwerpen 
+
+Aanroepen media query: @
+Begin met de grote vlakken. Lay out eerst goed hebben is belangrijk. 
+
+grid-template-colums: {
+  rows: max-content, max-content, max-content
+}
+
+grid-colom-start-start: 4
+grid-colom-end: 5
+grid-row-start: 1
+grid-row-end: 2
+
+<!-- grid van 3 kolommen -->
+main { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+<!-- eerste blok wordt twee keer zo groot -->
+article:first-child {
+  grid-column: span 2;
+background-color:lime;
+
+<!-- Als iets altijd vierkant moet  -->
+aspact-ratio: 1 / 1;
+<!-- Bij video -->
+aspact-ration: 16 / 9;
+
+<!-- hoogte aanpassen -->
+main { 
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 1em;
+/*   grid-columns: span 2; */
+}
+
+<!-- toegankelijke maken zonder media query -->
+grid-template-columns: repeat (auto-fill, minmax (20em, 1fr))
 
 </details>
