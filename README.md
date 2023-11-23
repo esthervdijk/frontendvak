@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  hier je focus (kies uit responsive óf surface plane), weet ik nog niet. 
  
 </details>
 
@@ -57,6 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  De gehele website kan nog een stuk toegankelijker. De code is rommelig niet semantisch. Er zijn geen duidelijke koppen en de talen springen steeds door elkaar. Ook op mobiel formaat verdwijnt de header en het hamburger menu. 
 
 </details>
 
@@ -68,12 +69,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/homepagina.pdf" width="375px" alt="breakdown van de hele pagina">
-  <img src="readme-images/stagespagina.pdf" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/homepagina.jpg" width="375px" alt="breakdown van de hele home pagina">
+  <img src="readme-images/podia" width="375px" alt="breakdown van de hele podia pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/menuin.png" width="375px" alt="breakdown van een dynamisch deel. Het menu zit in nu.">
-  <img src="readme-images/menuuit.png" width="375px" alt="breakdown van een dynamisch deel. Het menu is nu uit.">
+  <img src="./readme-images/menuin.png" width="375px" alt="breakdown van een dynamisch deel. Het menu zit in nu.">
+  <img src="./readme-images/menuuit.png" width="375px" alt="breakdown van een dynamisch deel. Het menu is nu uit.">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -90,7 +91,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het gaat goed. 
+  <img src="./readme-images/websiteweek2.png" with="375px" alt="voortgang website week 2">
 
 
   ### Agenda voor meeting

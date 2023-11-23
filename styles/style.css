@@ -2,7 +2,8 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  font-family: 'Expletus Sans', sans-serif;
 }
 
 
@@ -28,4 +29,78 @@
 /****************/
 
 /* jouw code */
+* {
+	margin: 0;
+	background-color: #80fda8;
+}
 
+h1 {
+	font-family: 'Expletus Sans', sans-serif;
+}
+
+h2{
+	color: #80fda8;
+	font-family: 'Expletus Sans', sans-serif;
+	background: black;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	list-style: none;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav a img{
+	max-width: 100%;
+}
+
+.lopendeTekst{
+	font-style: italic;
+	color: white;
+	background-color: black;
+	padding: 0.5em;
+	display: flex;
+	min-height: 1em;
+	max-height: 2.1em;
+}
+
+section{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	flex-grow: 2;
+}
+
+section img{
+	width: 100%;
+}
+
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+ul img{
+	min-width: 7em;
+	max-width: 7em;
+	margin: 1em;
+	padding: 0.5em;
+}
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+	background-color: black;
+}
+
+footer a{
+	background-color: black;
+}
