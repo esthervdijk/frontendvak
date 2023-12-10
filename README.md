@@ -13,16 +13,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>In dit document lees je meer over de website die ik de afgelopen weken heb nagemaakt. Veel leesplezier. </summary>
 
   ### Auteur:
-  Esther van Dijk
+  Mijn naam is Esther van Dijk.
 
   #### Je startniveau:
-  Blauw
+  Mijn startniveau is blauw. Als ik eenmaal de smaakt te pakken heb kan ik code erg leuk vinden. Toch is alles nog heel nieuw voor mij en kost het mij veel tijd om zaken voor elkaar te krijgen. 
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane), weet ik nog niet. 
+  Ik heb gekozen voor surface plane. Het dus nog beter maken van de code en website. 
  
 </details>
 
@@ -33,19 +33,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Als website heb ik gekozen voor de website van Dour Festival. Dit lijkt mij een leuke en uitdagende website om aan te werken de aankomende weken.</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Dour Festival
+  Link naar de website: https://www.dourfestival.eu/en/program/stages/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  De onderstaande pagina's ga ik namaken. Dus de home pagina en de pagina over de podia op het festival. Hieronder zie je ook van beide pagina's een breakdown.  
+  Home pagina
+  <img src="readme-images/homepagina.jpg" width="375px" alt="breakdown van de hele home pagina">
+  
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+  Podia pagina
+  <img src="readme-images/podia.jpg" width="375px" alt="breakdown van de hele podia pagina">
 </details>
 
 
@@ -53,11 +55,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>De Dour Festival website kan verbeteringen gebruiken. Zo heeft de website geen H1 en verdwijnt de header wanneer je de website op mobiel formaat bekijkt.<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  De gehele website kan nog een stuk toegankelijker. De code is rommelig niet semantisch. Er zijn geen duidelijke koppen en de talen springen steeds door elkaar. Ook op mobiel formaat verdwijnt de header en het hamburger menu. 
+  - Koppen zijn niet toegankelijk
+  - Code is rommelig en niet semantisch correct 
+  - De taal van de website springt steeds door elkaar 
+  - Op mobiel formaat verdwijnt de hele header en is het lastig om naar de andere pagina's van de website te gaan
+  - De website bestaat voornamelijk uit divjes 
+  - Er is geen h1 op de website 
+  Foto's van het ingevulde formulier: 
+  <img src="readme-images/WCAG1.png" alt="eerste deel van het WCAG formulier voor de Dour Festival website">
+  <img src="readme-images/WCAG2.png" alt="tweede deel van het WCAG formulier voor de Dour Festival website">
 
 </details>
 
@@ -66,23 +76,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  <summary>Hieronder zie je de breakdowns van de pagina's die ik ga maken.</summary>
 
   ### de hele pagina: 
   <img src="readme-images/homepagina.jpg" width="375px" alt="breakdown van de hele home pagina">
-  <img src="readme-images/podia" width="375px" alt="breakdown van de hele podia pagina">
+  <img src="readme-images/podia.jpg" width="375px" alt="breakdown van de hele podia pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="./readme-images/menuin.png" width="375px" alt="breakdown van een dynamisch deel. Het menu zit in nu.">
   <img src="./readme-images/menuuit.png" width="375px" alt="breakdown van een dynamisch deel. Het menu is nu uit.">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/nieuwsbrief.png" width="375px" alt="hier zie je een formulier op de website waarbij het mogelijk is om je in te schrijven voor de nieuwsbrief">
 
 </details>
-
-
-
 
 
 ## Voortgang 1 (week 2)
