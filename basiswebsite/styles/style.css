@@ -1,0 +1,217 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+* {
+	margin: 0;
+	background-color: #80fda8;
+}
+
+body{
+	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+p{
+	font-family: 'Expletus Sans', sans-serif;
+}
+
+header > p {
+	background-color: black;
+}
+	
+
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+}
+
+h2{
+	font-family: 'Archivo Black', sans-serif;
+	color: #80fda8;
+	background: black;
+	text-align: center;
+	padding: 0.3em;
+	display: block;
+	width: 100vw;
+}
+
+h3{
+	font-family: 'Archivo Black', sans-serif;
+	margin-right: 0.3em;
+}
+
+h4{
+	font-size: x-large;
+	font-family: 'Archivo Black', sans-serif;
+	display: flex;
+	color: white;
+	margin-bottom: 2em;
+	justify-content: center;
+}
+
+.formulier{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+}
+
+.formulier button{
+	background-color: black;
+	padding: 0.5em;
+	color: #80fda8;
+}
+
+.formulier input{
+	background-color: white;
+	border-color: white;
+	min-height: 2.3em;
+	max-height: 2.3em;
+
+} 
+
+nav{
+	font-family: 'Expletus Sans', sans-serif;
+}
+
+nav ul{
+	list-style: none;
+	background-color: #111;
+	color: #80fda8;
+}
+
+nav li{
+	width: 100vw;
+	margin-right: 1em;
+	background-color: black;
+}
+
+nav li:hover{
+	background-color: #80fda8;
+	color: black;
+	transition: 1s;
+}
+
+nav a{
+	text-decoration: none;
+	list-style: none;
+}
+
+nav a img{
+	width: 10vw;
+	width: 10vh;
+}
+
+nav a{
+	background-color: black;
+	color: #80fda8;
+}
+
+.hamburgermenu{
+	min-width: 3em;
+	max-width: 3em;
+	margin-right: 0.3em;
+	margin-top: 0;
+	position: absolute;
+	top: 0.2em;
+	right: 1em;
+}
+
+.lopendeTekst{
+	font-style: italic;
+	color: white;
+	padding: 0.3em;
+	display: block;
+	max-height: 3vh;
+	white-space: nowrap;
+	animation: beweegNaarLinks 80s infinite;
+}
+
+@keyframes beweegNaarLinks {
+    from {
+        transform: translateX(0%); /* Beginpositie helemaal rechts buiten het scherm */
+		background-color: black;
+    }
+    to {
+        transform: translateX(-100%); /* Eindpositie helemaal links buiten het scherm */
+		background-color: black;
+    }
+	/* Voeg deze regel toe om de achtergrondkleur altijd zwart te houden */
+    0%, 100% {
+        background-color: black;
+    }
+}
+
+section{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	flex-grow: 2;
+	width: 100vw;
+}
+
+section img{
+	width: 100%;
+}
+
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+ul img{
+	min-width: 7em;
+	max-width: 7em;
+	margin: 1em;
+	padding: 0.5em;
+}
+
+footer{
+	font-style: italic;
+	color: white;
+	background-color: black;
+	width: 100vw;
+	text-align: center;
+}
+
+footer ul{
+	list-style: none; 
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+}
+
+footer ul li {
+	padding: 0.5em;
+	width: 100vw;
+	background-color: black;
+}
