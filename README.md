@@ -95,44 +95,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
+  <summary><sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Het gaat goed. 
-  <img src="./readme-images/websiteweek2.png" with="375px" alt="voortgang website week 2">
+  De start ging goed en soepel. Op advies van de docent ben ik eerst begonnen met het juist zetten van de content en daarna de header gedaan.Het was wel weer even experimenteren en inkomen in HTML en CSS. Door de oefeningen in de les ging het maken van de website redelijk soepel. Wat ik wel lastig vond is dat soms de website groter was dan het scherm. Hierdoor ben ik gaan werken met vh en vw in de CSS. Met deze termen had ik nog nooit gewerkt. Dit heeft erg geholpen bij het maken van de website. Hieronder zie je wat beelden van het proces tot nu toe. 
+  <img src="./readme-images/voortgang1.png" with="375px" alt="voortgang website week 2">
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  - Hamburgermenu
+  - viewport hight en width 
+  - grid en flexbox
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+   ### Verslag van meeting
 
+  In deze week heb ik samen met Noah, Abby en Marnix in een groepje onze problemen besproken. Zo had bijna iedereen moeite met het maken van de header en het hamburger menu. Ook de docent heeft ons tijdens deze les goed opweg geholpen. Hieronder zijn wat punten beschreven die uit het gesprek zijn gekomen met elkaar en de docent. 
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Hamburger menu maken d.m.v. classes in CSS en Java Script
+  - In CSS vh en vw gebruiken zodat de website niet groter word dan het scherm
+  - Specifieke vragen uitgelegd over grid en flexbox. Het op de juiste plek krijgen van content. 
 
 </details>
-
-
 
 
 
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+  <summary>Ik ben verder gegaan met het maken van de header en het bijbehorde hamburgermenu. Ook heb ik de animatie van de website gemaakt. Het was voor alles even zoeken, maar door middel van bronnen en hulp van de docent is het gelukt.<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Na het op de juiste plek zetten van de content van de website ben ik verder gegaan met het maken van de header. Dit was best een lastig karwei. In de header heb ik een hamburgermenu gebruikt. Dit menu ben ik werkend gaan laten maken door middel van Java Script. Dit was ook weer even inkomen. Door middel van een bron van dev.io is het gelukt om het hamburgermenu werkend te maken. 
+
+  Ook heb ik een animatie gemaakt. De tekst gaat van links naar rechts in het scherm. Het was even zoeken hoe ik dit precies moest doen. Ik had dit namelijk nog nooit gedaan. Een pagina van Antagonist heeft mij hierbij geholpen. In deze pagina beschreven ze verschillende animaties. Door te experimenten met keyframes in CSS is het uiteindelijk gelukt om de animatie te maken. Wat daarna niet lukt was dat de achtergrond zwart bleef. Door hulp van de docent is het uiteindelijk wel gelukt. 
+
+  Foute versie: de p had een zwarte achtergrond en die bewoog van links naar rechts. De p beweegt dus eigenlijk uit het beeld. 
+  Goede versie: in de p zit nu een span. De p is nu een vast blok die altijd zwart is en daardoor witte tekst komt. 
+
+  <img src="./readme-images/voortgang2.png" with="375px" alt="voortgang website week 2">
 
 
   ### Agenda voor meeting
@@ -234,14 +234,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
+  <summary>Tijdens het maken van de website van Dour Festival heb ik verschillende bronnen geraadpleegd.</summary>
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. ljc-dev. (2020). Easy hamburger menu with JS - Beginners. van, https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0. 
+  2. Daniel. (2022). Geef je website stijl met CSS-animaties!. van, https://www.antagonist.nl/blog/css-animaties/
   3. ...
 
 </details>
