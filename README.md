@@ -72,11 +72,11 @@
   <img src="readme-images/homepagina.jpg" width="375px" alt="breakdown van de hele home pagina">
   <img src="readme-images/podia.jpg" width="375px" alt="breakdown van de hele podia pagina">
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel, menu): 
   <img src="./readme-images/menuin.png" width="375px" alt="breakdown van een dynamisch deel. Het menu zit in nu.">
   <img src="./readme-images/menuuit.png" width="375px" alt="breakdown van een dynamisch deel. Het menu is nu uit.">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  ### wellicht nog een dynamisch deel, inschrijven nieuwsbrief: 
   <img src="readme-images/nieuwsbrief.png" width="375px" alt="hier zie je een formulier op de website waarbij het mogelijk is om je in te schrijven voor de nieuwsbrief">
 
 </details>
