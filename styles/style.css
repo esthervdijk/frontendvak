@@ -7,9 +7,6 @@
 
 
 
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -18,7 +15,6 @@
 	--color-text:#111;
 	--color-background:#eee;
 }
-
 
 
 
@@ -39,17 +35,37 @@ body{
 	width: 100%;
 }
 
+/* alle tekst */
 p{
 	font-family: 'Expletus Sans', sans-serif;
 }
 
+/* stijling header */
 header > p {
 	background-color: black;
 }
-	
 
+header button {
+	text-decoration: none;
+}
+
+/* kleine grijze button laten verdwijnen */
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+	
+/* stijling koppen */
 h1 {
 	font-family: 'Archivo Black', sans-serif;
+	color: #80fda8;
+	background: black;
+	text-align: center;
+	padding: 0.3em;
+	display: block;
+	width: 100vw;
 }
 
 h2{
@@ -60,23 +76,118 @@ h2{
 	padding: 0.3em;
 	display: block;
 	width: 100vw;
+	background-color: black;
 }
 
 h3{
 	font-family: 'Archivo Black', sans-serif;
-	margin-right: 0.3em;
+	text-align: center;
+	font-size: x-large;
+	padding: 1em;
 }
 
-h4{
+h4 a{
 	font-size: x-large;
 	font-family: 'Archivo Black', sans-serif;
 	display: flex;
-	color: white;
+	color: black;
 	margin-bottom: 2em;
 	justify-content: center;
+	text-decoration: none;
 }
 
+h5{
+	color: white;
+	text-align: center;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: larger;
+	padding: 2em;
+	background-color: black;
+}
+
+/* Stijling navigatie */
+nav{
+	font-family: 'Expletus Sans', sans-serif;
+}
+
+nav ul{
+	list-style: none;
+	background-color: #111;
+	color: #80fda8;
+}
+
+nav li{
+	width: 100vw;
+	margin-right: 1em;
+	background-color: black;
+	padding: 0.1em;
+}
+
+nav li:hover{
+	background-color:#80fda8;
+	color: black;
+	transition: 0.5s;
+}
+
+nav a{
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	color: white;
+}
+
+nav a img{
+	width: 10vw;
+	width: 10vh;
+}
+
+/* Stijling hamburgermenu foto */
+.hamburgermenu{
+	min-width: 3em;
+	max-width: 3em;
+	margin-right: 0.3em;
+	margin-top: 0;
+	position: absolute;
+	top: 0.2em;
+	right: 1em;
+}
+
+/* Stijling menukeuzes uitgeklapt */
+.menuKeuzes a{
+	background-color: black;
+	color: #80fda8;
+}
+
+/* Stijling animatie in header */
+.lopendeTekst{
+	font-style: italic;
+	color: white;
+	padding: 0.3em;
+	display: block;
+	max-height: 3vh;
+	white-space: nowrap;
+	animation: beweegNaarLinks 80s infinite;
+}
+
+/* Animatie */
+@keyframes beweegNaarLinks {
+    from {
+        transform: translateX(0%); /* Beginpositie helemaal rechts buiten het scherm */
+		background-color: black;
+    }
+    to {
+        transform: translateX(-100%); /* Eindpositie helemaal links buiten het scherm */
+		background-color: black;
+    }
+	/* Voeg deze regel toe om de achtergrondkleur altijd zwart te houden */
+    0%, 100% {
+        background-color: black;
+    }
+}
+
+/* Stijling inschrijfformulier nieuwsbrief */
 .formulier{
+	font-family: 'Expletus Sans', sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -94,81 +205,9 @@ h4{
 	border-color: white;
 	min-height: 2.3em;
 	max-height: 2.3em;
-
 } 
 
-nav{
-	font-family: 'Expletus Sans', sans-serif;
-}
-
-nav ul{
-	list-style: none;
-	background-color: #111;
-	color: #80fda8;
-}
-
-nav li{
-	width: 100vw;
-	margin-right: 1em;
-	background-color: black;
-}
-
-nav li:hover{
-	background-color: #80fda8;
-	color: black;
-	transition: 1s;
-}
-
-nav a{
-	text-decoration: none;
-	list-style: none;
-}
-
-nav a img{
-	width: 10vw;
-	width: 10vh;
-}
-
-nav a{
-	background-color: black;
-	color: #80fda8;
-}
-
-.hamburgermenu{
-	min-width: 3em;
-	max-width: 3em;
-	margin-right: 0.3em;
-	margin-top: 0;
-	position: absolute;
-	top: 0.2em;
-	right: 1em;
-}
-
-.lopendeTekst{
-	font-style: italic;
-	color: white;
-	padding: 0.3em;
-	display: block;
-	max-height: 3vh;
-	white-space: nowrap;
-	animation: beweegNaarLinks 80s infinite;
-}
-
-@keyframes beweegNaarLinks {
-    from {
-        transform: translateX(0%); /* Beginpositie helemaal rechts buiten het scherm */
-		background-color: black;
-    }
-    to {
-        transform: translateX(-100%); /* Eindpositie helemaal links buiten het scherm */
-		background-color: black;
-    }
-	/* Voeg deze regel toe om de achtergrondkleur altijd zwart te houden */
-    0%, 100% {
-        background-color: black;
-    }
-}
-
+/* Stijling alle content index pagina */
 section{
 	display: flex;
 	flex-wrap: wrap;
@@ -181,11 +220,64 @@ section img{
 	width: 100%;
 }
 
+/* Stijling podia pagina */
+article{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	width: 100vw;
+	justify-content: flex-start;
+}
+
+article img{
+	width: 100vw;
+	height: 30vh;
+}
+
+article a{
+	padding: 1em;
+	background-color: black;
+	color: #80fda8;
+	font-family: 'Archivo Black', sans-serif;
+	margin: 1em;
+	margin-left: 3em;
+	margin-bottom: 4em;
+	text-decoration: none;
+}
+
+article a:hover{
+	background-color: #80fda8;
+	border-color: black;
+	border-style: groove;
+	color: black;
+	animation: forwards;
+	transition: 0.5s;
+}
+
+article p{
+	margin: 3em;
+}
+
+article h2{
+	display: flex;
+	font-family: 'Expletus Sans', sans-serif;
+	font-size: x-large;
+	color: black;
+	background-color: #80fda8;
+	font-style: italic;
+	margin-left: 1.8em;
+	margin-top: 1em;
+	justify-content: left;
+}
+
+/* Stijling overzicht van alle partners  */
 ul{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	list-style: none;
+	text-decoration: none;
 }
 
 ul img{
@@ -195,23 +287,36 @@ ul img{
 	padding: 0.5em;
 }
 
+/* Stijling footer */
 footer{
-	font-style: italic;
-	color: white;
 	background-color: black;
-	width: 100vw;
-	text-align: center;
+}
+
+footer a{
+	width: 100%;
+	color: white;
+	text-decoration: none;
+
 }
 
 footer ul{
-	list-style: none; 
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 	background-color: black;
 }
 
-footer ul li {
+footer li{
+	min-width: 100%;
+	max-width: 100%;
+	background-color: black;
+	text-align: center;
 	padding: 0.5em;
-	width: 100vw;
+	font-style: italic;
+	
+}
+
+footer a {
 	background-color: black;
 }

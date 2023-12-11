@@ -22,10 +22,17 @@ function menuOpen() {
 menu.addEventListener("click", menuOpen);
 
 function menuDicht() {
-    // document.querySelector('.menuKeuzes').style.display = 'none';
-    document.querySelector('.menuKeuzes').classList.remove('open');
+    document.querySelector('.menuKeuzes').style.display = 'none';
     console.log("Menu is dicht");
 }
+
+
+
+// function menuDicht() {
+//     // document.querySelector('.menuKeuzes').style.display = 'none';
+//     document.querySelector('.menuKeuzes').classList.remove('open');
+//     console.log("Menu is dicht");
+// // 
 
 // Vorige iteraties code
 // // De menu opties zijn niet zichtbaar als je op de pagina komt //

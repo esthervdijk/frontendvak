@@ -136,36 +136,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Voor het laatste voorgangsgesprek met de docent heb ik een aantal punten opgeschreven die ik graag wil bespreken. 
+  - Klopt mijn code? 
+  - Waar moet ik nog verder aan denken? / ben ik wat vergeten? 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+Het gesprek heb ik gevoerd met de docent. Hij heeft mij geholpen bij het semantisch juiste maken van de code. Zo had ik een UL zonder LI's erin. Het enige wat in een UL mag zijn LI. Ook moest ik van sommige items links maken of een button. Dit heb ik allemaal aangepast in mijn code. Hij heeft mij ook geholpen met mijn Java Script. Blijkbaar stijlde ik vanaf mijn Java Script. Dit is niet de bedoeling. Het is dus de bedoeling dat je vanuit Java Script een class aanroept in CSS. Want CSS is echt voor de stijling. 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+Ook gaf hij als feedback dat ik echt aan de toegankelijkheid van de website moet denken. Zoals juiste koppen en geen onnodige alt tekst bij afbeeldingen waar dat niet van toepassing is. Deze feedback ga ik verwerken bij het verder uitwerken van mijn website. 
+
+Punten: 
+- In UL mogen alleen LI's
+- Niet vanuit Java Script stijlen, maar alleen vanuit CSS
+- Gebruik buttons waar het een button is en een a waar het een a is
+- Denk aan de toegankelijkheid van de website, juiste koppen en alt tekst
 
 </details>
-
-
 
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <summary>De website is op veel punten verbeterd! Op bijvoorbeeld: de koppen, het gebruik van a en button de code is nu netter en valide. <sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Vandaag heb ik de toegankelijkheidstest nog een keer gedaan met mijn eigen gemaakte website van Dour Festival. Hieruit is gekomen dan een heel groot deel van de punten die eerst niet goed waren zijn verbeterd. Zoals:
+  - 1 H1 item op elke pagina 
+  - Duidelijke koppen 
+  - In UL alleen LI 
+  - Animaties zijn rustig en niet te opvallend
+  - De juiste elementen zijn gebruikt voor knoppen (button) en links (a)
+
+  Er zijn ook een aantal dingen naar voren gekomen die nog niet voldoende zijn. Zo is het niet mogelijk om de animatie te stoppen. Ook heeft de website geen donder en licht modus of een hoog en laag contrast stand. Deze punten staan wel in de WCAG checklist. 
+
+  Hieronder zijn afbeelden van de ingevulde checklists te zien. 
+    <img src="readme-images/WCAG3.png" alt="eerste deel van het WCAG formulier voor de Dour Festival website">
+  <img src="readme-images/WCAG4.png" alt="tweede deel van het WCAG formulier voor de Dour Festival website">
 
 </details>
 
@@ -242,7 +250,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. ljc-dev. (2020). Easy hamburger menu with JS - Beginners. van, https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0. 
   2. Daniel. (2022). Geef je website stijl met CSS-animaties!. van, https://www.antagonist.nl/blog/css-animaties/
-  3. ...
+  3. MoOx (2014) reset-button.css. van, https://gist.github.com/MoOx/9137295
 
 </details>
 
