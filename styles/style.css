@@ -169,6 +169,10 @@ nav a img{
 	animation: beweegNaarLinks 80s infinite;
 }
 
+span{
+	width: 100vw;
+}
+
 /* Animatie */
 @keyframes beweegNaarLinks {
     from {

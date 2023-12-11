@@ -54,7 +54,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>De Dour Festival website kan verbeteringen gebruiken. Zo heeft de website geen H1 en verdwijnt de header wanneer je de website op mobiel formaat bekijkt.<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
@@ -75,7 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
   <summary>Hieronder zie je de breakdowns van de pagina's die ik ga maken.</summary>
 
   ### de hele pagina: 
@@ -94,8 +94,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details>
-  <summary><sup>e</sup> voortgang</summary>
+<details open>
+  <summary><sup>1e</sup> voortgang</summary>
 
   ### Stand van zaken
   De start ging goed en soepel. Op advies van de docent ben ik eerst begonnen met het juist zetten van de content en daarna de header gedaan.Het was wel weer even experimenteren en inkomen in HTML en CSS. Door de oefeningen in de les ging het maken van de website redelijk soepel. Wat ik wel lastig vond is dat soms de website groter was dan het scherm. Hierdoor ben ik gaan werken met vh en vw in de CSS. Met deze termen had ik nog nooit gewerkt. Dit heeft erg geholpen bij het maken van de website. Hieronder zie je wat beelden van het proces tot nu toe. 
@@ -121,7 +121,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>Ik ben verder gegaan met het maken van de header en het bijbehorde hamburgermenu. Ook heb ik de animatie van de website gemaakt. Het was voor alles even zoeken, maar door middel van bronnen en hulp van de docent is het gelukt.<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -132,7 +132,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Foute versie: de p had een zwarte achtergrond en die bewoog van links naar rechts. De p beweegt dus eigenlijk uit het beeld. 
   Goede versie: in de p zit nu een span. De p is nu een vast blok die altijd zwart is en daardoor witte tekst komt. 
 
-  <img src="./readme-images/voortgang2.png" with="375px" alt="voortgang website week 2">
+  <img src="./readme-images/voortgang2.png" with="375px" alt="voortgang website week 3">
 
 
   ### Agenda voor meeting
@@ -157,7 +157,7 @@ Punten:
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>De website is op veel punten verbeterd! Op bijvoorbeeld: de koppen, het gebruik van a en button de code is nu netter en valide. <sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
@@ -179,34 +179,28 @@ Punten:
 
 
 
-
-
 ## Voortgang 3 (week 4)
 
-<details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+<details open>
+  <summary><sup>3e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+- Tweede pagina maken 
+- Animatie maken voor knoppen
+- Code valideren en netjes maken 
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+Na het zo goed als afronden van de eerste pagina ben ik begonnen met de tweede pagina. Gelukkig kon ik een deel van de stijling van de index pagina kopieren. Het was alleen nog best een gepriegel om alles op de juiste plek te krijgen. Ook heb ik een animatie toegevoegd aan de knoppen op de tweede pagina. Ik wilde eerst eigenlijk iets nieuws proberen, maar het lukte allemaal niet goed. Ik vond het toch nog erg lastig. 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Verder heb ik mij bezig gehouden met de toegankelijkheid van de website. Zo heb ik op verschillende plekken aria-label gebruikt en ben ik meerdere keren met de screenreader door de website heen gelopen. Hieronder zie je wat beelden van mijn voortgang. 
+
+  <img src="./readme-images/voortgang3.png" with="375px" alt="voortgang website week 4">
+  <img src="./readme-images/voortgang4.png" with="375px" alt="toegankelijkheid en animatie knop">
 
 </details>
 
@@ -216,23 +210,20 @@ Punten:
 
 ## Eindgesprek (week 5)
 
-<details>
-  <summary>uitwerken voor eindgesprek</summary>
+<details open>
+  <summary>De website is klaar!</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="./readme-images/eindresultaat.png" with="375px" alt="het eindresultaat van beide pagina's">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  In het onderstaande beeld is te zien wat ging ging en ik heb geleerd binnen de opdracht. 
+  <img src="./readme-images/geleerd.png" with="375px" alt="Dit ging goed en heb ik geleerd">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  In het onderstaande beeld is te zien en lezen wat ik lastig vond en niet is gelukt binnen de opdracht.
+   <img src="./readme-images/lastig.png" with="375px" alt="Dit vond ik lastig/is niet gelukt">
 </details>
 
 
@@ -244,13 +235,11 @@ Punten:
 <details open>
   <summary>Tijdens het maken van de website van Dour Festival heb ik verschillende bronnen geraadpleegd.</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
   1. ljc-dev. (2020). Easy hamburger menu with JS - Beginners. van, https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0. 
   2. Daniel. (2022). Geef je website stijl met CSS-animaties!. van, https://www.antagonist.nl/blog/css-animaties/
-  3. MoOx (2014) reset-button.css. van, https://gist.github.com/MoOx/9137295
+  3. MoOx (2014). reset-button.css. van, https://gist.github.com/MoOx/9137295
+  4. Sara (2022). Digitale toegankelijkheid: wat heb je nodig voor een toegankelijke website?. van, https://makeitmax.design/nl/digitale-toegankelijkheid-wat-heb-je-nodig/
+  5. dev.ti (2019). 65 Beautiful CSS Buttons. van, https://dev.to/webdeasy/top-20-css-buttons-animations-f41
 
 </details>
 
