@@ -216,6 +216,23 @@ Verder heb ik mij bezig gehouden met de toegankelijkheid van de website. Zo heb 
    <img src="./readme-images/lastig.png" with="375px" alt="Dit vond ik lastig/is niet gelukt">
 </details>
 
+## Herkansing 
+
+<details open>
+<summary>De website reponsive gemaakt + een pagina toegevoegd!</summary>
+
+### Screenshots van de website nu:
+Ik vond het heel erg jammer en balen dat ik het de eerste keer niet had gehaald. Marten gaf aan dat hij de code te mager en makkelijk vond. Ik de afgelopen weken heb ik de website verbeterd en complexer gemaakt. Zo heb ik de website volledig responsive gemaakt. Dit kan ik nog nooit gedaan. Ook heb ik een andere pagina toegevoegd: de line up pagina. 
+
+Daarnaast heb ik ook de navigatie verder uitgewerkt. Op dekstop zie je de volledige navigatie en op mobiel formaat zie je alleen het hamburger menu. Dit had ik ook nog nooit eerder gedaan. 
+
+Verder heb ik ook de toegankelijkheid van de website verbetert. Zo ben ik meer met met de screenreader gaan testen en heb ik alle links ook echt links gemaakt en extra informatie toegevoegd waar nodig. Op deze manier kunnen ook slechtzienden en blinden de website om een gemakkelijke manier bezoeken. 
+
+Ik ben erg blij met het eindresultaat. 
+<img src="./readme-images/herkansing" with="375px" alt="wat heb ik verder nog gedaan aan de website">
+<img src="./readme-images/herkansing2" with="375px" alt="wat heb ik verder nog gedaan aan de website">
+</details>
+
 
 
 
