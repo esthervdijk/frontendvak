@@ -229,8 +229,8 @@ Daarnaast heb ik ook de navigatie verder uitgewerkt. Op dekstop zie je de volled
 Verder heb ik ook de toegankelijkheid van de website verbetert. Zo ben ik meer met met de screenreader gaan testen en heb ik alle links ook echt links gemaakt en extra informatie toegevoegd waar nodig. Op deze manier kunnen ook slechtzienden en blinden de website om een gemakkelijke manier bezoeken. 
 
 Ik ben erg blij met het eindresultaat. 
-<img src="./readme-images/herkansing" with="375px" alt="wat heb ik verder nog gedaan aan de website">
-<img src="./readme-images/herkansing2" with="375px" alt="wat heb ik verder nog gedaan aan de website">
+<img src="./readme-images/herkansing.png" with="375px" alt="wat heb ik verder nog gedaan aan de website">
+<img src="./readme-images/herkansing2.png" with="375px" alt="wat heb ik verder nog gedaan aan de website">
 </details>
 
 
