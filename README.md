@@ -231,7 +231,7 @@ Verder heb ik ook de toegankelijkheid van de website verbetert. Zo ben ik meer m
 Ik ben erg blij met het eindresultaat. 
 <img src="./readme-images/herkansing.png" with="375px" alt="wat heb ik verder nog gedaan aan de website">
 <img src="./readme-images/herkansing2.png" with="375px" alt="wat heb ik verder nog gedaan aan de website">
-<img src="./readme-images/dourherkansing.png" with="375px" alt="uiteindelijke website">
+<img src="./readme-images/dourherkansing2.png" with="375px" alt="uiteindelijke website">
 
 
 </details>
